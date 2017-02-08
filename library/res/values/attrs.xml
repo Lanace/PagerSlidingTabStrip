@@ -13,6 +13,10 @@
         <attr name="pstsTabBackground" format="reference" />
         <attr name="pstsShouldExpand" format="boolean" />
         <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsIndicatorWidthType" format="enum">
+            <enum name="Full" value="0"/>
+            <enum name="TextWidth" value="1"/>
+        </attr>
     </declare-styleable>
 
 </resources>
